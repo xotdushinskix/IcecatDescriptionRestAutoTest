@@ -8,7 +8,7 @@ from accessKeyGenerator import accesskey
 class TestConfig(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        key = accesskey.accessKey('ASfW9179vRL6U_G_EKPCBc9vBj2C2c1m', 'https://bo.icecat.biz/user/login')
+        key = accesskey.accessKey('', 'https://bo.icecat.biz/user/login')
         assert (key[1] == 200)
 
 
