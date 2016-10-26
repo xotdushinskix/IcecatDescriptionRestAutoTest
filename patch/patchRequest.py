@@ -3,9 +3,9 @@ import json
 import requests
 
 
-class PutAction():
+class PatchAction():
 
-    def putRequest(self, url, dataDict, accessKey):
+    def patchRequest(self, url, dataDict, accessKey):
 
         productId = dataDict['productId']
         langId = dataDict['langId']
@@ -26,6 +26,6 @@ class PutAction():
             }
 
 
-        response = requests.request("PUT", requiredURL, data=payload, headers=headers, params=querystring)
+        response = requests.request("PATCH", requiredURL, data=payload, headers=headers, params=querystring)
 
         return response.text, response.status_code

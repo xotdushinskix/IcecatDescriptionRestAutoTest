@@ -1,4 +1,6 @@
-def fileReader():
-    nameFile = open("accesskey.txt")
-    textFromFile = nameFile.read()
-    return textFromFile
+class ReadAccessKeyFile():
+
+    def fileReader(self):
+        nameFile = open("accesskey.txt")
+        textFromFile = nameFile.read()
+        return textFromFile

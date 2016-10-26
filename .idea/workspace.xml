@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5308785-b77e-42bd-9c25-0501483facd3" name="Default" comment="" />
+    <list default="true" id="e5308785-b77e-42bd-9c25-0501483facd3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/patch/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/patch/patchRequest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accessKeyGenerator/accesskey.py" afterPath="$PROJECT_DIR$/accessKeyGenerator/accesskey.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accessKeyGenerator/getAccessKey.py" afterPath="$PROJECT_DIR$/accessKeyGenerator/getAccessKey.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delete/deleteRequest.py" afterPath="$PROJECT_DIR$/delete/deleteRequest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/get/getRequest.py" afterPath="$PROJECT_DIR$/get/getRequest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post/postRequest.py" afterPath="$PROJECT_DIR$/post/postRequest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/put/putRequest.py" afterPath="$PROJECT_DIR$/put/putRequest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/super_user/accesskey.txt" afterPath="$PROJECT_DIR$/super_user/accesskey.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/super_user/superUserData.py" afterPath="$PROJECT_DIR$/super_user/superUserData.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/super_user/testConfig.py" afterPath="$PROJECT_DIR$/super_user/testConfig.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/super_user/testSuperUser.py" afterPath="$PROJECT_DIR$/super_user/testSuperUser.py" />
+    </list>
     <ignored path="Nikita.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -19,6 +34,7 @@
     <SUITE FILE_PATH="coverage/Nikita$rew.coverage" NAME="rew Coverage Results" MODIFIED="1471870190458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/accessKeyGenerator" />
     <SUITE FILE_PATH="coverage/Nikita$Unittests_in_Test_Super_User__1_.coverage" NAME="Unittests in Test_Super_User (1) Coverage Results" MODIFIED="1475072577931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
     <SUITE FILE_PATH="coverage/Nikita$Unittests_in_superUser_Get_Main.coverage" NAME="Unittests in superUser_Get_Main Coverage Results" MODIFIED="1470148586506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/superUser_GET" />
+    <SUITE FILE_PATH="coverage/IcecatDescriptionRestAutoTest$Unittest_SuperUserTest_test_Get.coverage" NAME="Unittest SuperUserTest.test_Get Coverage Results" MODIFIED="1477403640958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
     <SUITE FILE_PATH="coverage/Nikita$Unittest_Test_Super_User__test_initParams.coverage" NAME="Unittest Test_Super_User._test_initParams Coverage Results" MODIFIED="1472816510581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
     <SUITE FILE_PATH="coverage/Nikita$getAccessKey.coverage" NAME="getAccessKey Coverage Results" MODIFIED="1471869251003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/accessKeyGenerator" />
     <SUITE FILE_PATH="coverage/Nikita$accesskey.coverage" NAME="accesskey Coverage Results" MODIFIED="1471865659272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/accessKeyGenerator" />
@@ -26,12 +42,16 @@
     <SUITE FILE_PATH="coverage/Nikita$Main.coverage" NAME="Main Coverage Results" MODIFIED="1471868787544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/accessKeyGenerator" />
     <SUITE FILE_PATH="coverage/Nikita5$Unittests_in_Test_Super_User__1_.coverage" NAME="Unittests in Test_Super_User (1) Coverage Results" MODIFIED="1476360760961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
     <SUITE FILE_PATH="coverage/IcecatDescriptionRestAutoTest$Unittests_in_SuperTests.coverage" NAME="Unittests in SuperUserTest Coverage Results" MODIFIED="1476363906847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
+    <SUITE FILE_PATH="coverage/IcecatDescriptionRestAutoTest$Unittest_SuperUserTest_test_Put_Like_Patch.coverage" NAME="Unittest SuperUserTest.test_Put_Like_Patch Coverage Results" MODIFIED="1477470482407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
+    <SUITE FILE_PATH="coverage/IcecatDescriptionRestAutoTest$Unittests_in_SuperUserTest.coverage" NAME="Unittests in SuperUserTest Coverage Results" MODIFIED="1477470578037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
     <SUITE FILE_PATH="coverage/Nikita$Unittest_Test_Super_User_test_AccessKeyStatus.coverage" NAME="Unittest Test_Super_User.test_AccessKeyStatus Coverage Results" MODIFIED="1471953669096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
     <SUITE FILE_PATH="coverage/Nikita$Unittests_in_testSuperUser.coverage" NAME="Unittests in testSuperUser Coverage Results" MODIFIED="1472736212442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
     <SUITE FILE_PATH="coverage/Nikita$Unittest_Test_Super_User_test_PostFullInfo.coverage" NAME="Unittest Test_Super_User.test_PostFullInfo Coverage Results" MODIFIED="1472817400085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
+    <SUITE FILE_PATH="coverage/IcecatDescriptionRestAutoTest$Unittest_SuperUserTest_test_Patch.coverage" NAME="Unittest SuperUserTest.test_Patch Coverage Results" MODIFIED="1477462964323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
     <SUITE FILE_PATH="coverage/Nikita$Unittest_Test_Super_User_test_C.coverage" NAME="Unittest Test_Super_User.test_C Coverage Results" MODIFIED="1472735439396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
     <SUITE FILE_PATH="coverage/Nikita$Unittest_Test_Super_User_test_GetRequest.coverage" NAME="Unittest Test_Super_User.test_GetRequest Coverage Results" MODIFIED="1472734181250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
     <SUITE FILE_PATH="coverage/Nikita$Unittest_MyTestCase_testEditorGet__1_.coverage" NAME="Unittest MyTestCase.testEditorGet (1) Coverage Results" MODIFIED="1467986298332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/superUser_GET" />
+    <SUITE FILE_PATH="coverage/IcecatDescriptionRestAutoTest$Unittest_SuperUserTest_test_Delete.coverage" NAME="Unittest SuperUserTest.test_Delete Coverage Results" MODIFIED="1477403648064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
     <SUITE FILE_PATH="coverage/Nikita$Unittest_Test_Super_User_test_PostRequest.coverage" NAME="Unittest Test_Super_User.test_PostRequest Coverage Results" MODIFIED="1472734169919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
     <SUITE FILE_PATH="coverage/Nikita$Unittests_in_Test_Super_User.coverage" NAME="Unittests in Test_Super_User Coverage Results" MODIFIED="1472736106890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
     <SUITE FILE_PATH="coverage/Nikita$getJSONresponse.coverage" NAME="getJSONresponse Coverage Results" MODIFIED="1470148449674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/superUser_GET" />
@@ -42,17 +62,21 @@
     <SUITE FILE_PATH="coverage/Nikita$Unittests_in_superUser_POST_Main.coverage" NAME="Unittests in superUser_POST_Main Coverage Results" MODIFIED="1469534381418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/superUser_POST" />
     <SUITE FILE_PATH="coverage/Nikita$Main__1_.coverage" NAME="Main (1) Coverage Results" MODIFIED="1471952584831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
     <SUITE FILE_PATH="coverage/Nikita$Unittests_in_TestSuperUser_GET.coverage" NAME="Unittests in TestSuperUser_GET Coverage Results" MODIFIED="1470148778461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/superUser_GET" />
+    <SUITE FILE_PATH="coverage/IcecatDescriptionRestAutoTest$Unittest_SuperUserTest_test_Put_Like_Post.coverage" NAME="Unittest SuperUserTest.test_Put_Like_Post Coverage Results" MODIFIED="1477469681576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
     <SUITE FILE_PATH="coverage/Nikita$Unittest_Test_Super_User__test_1initParams.coverage" NAME="Unittest Test_Super_User._test_1initParams Coverage Results" MODIFIED="1472816623442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
     <SUITE FILE_PATH="coverage/Nikita$Unittest_Test_Super_User_test_1initParams.coverage" NAME="Unittest Test_Super_User.test_1initParams Coverage Results" MODIFIED="1472817210175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
     <SUITE FILE_PATH="coverage/Nikita$Unittest_Test_Super_User_test_PostRequest__1_.coverage" NAME="Unittest Test_Super_User.test_PostRequest (1) Coverage Results" MODIFIED="1472735340265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
     <SUITE FILE_PATH="coverage/Nikita$MainHelp.coverage" NAME="MainHelp Coverage Results" MODIFIED="1471870376048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/accessKeyGenerator" />
     <SUITE FILE_PATH="coverage/Nikita$Unittests_in_superUser_Get_Main__1_.coverage" NAME="Unittests in superUser_Get_Main (1) Coverage Results" MODIFIED="1467987110683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/superUser_GET" />
     <SUITE FILE_PATH="coverage/Nikita5$Unittest_Test_Super_User_test_Delete.coverage" NAME="Unittest Test_Super_User.test_Delete Coverage Results" MODIFIED="1476361364754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
+    <SUITE FILE_PATH="coverage/IcecatDescriptionRestAutoTest$Unittests_in_SuperUserTest__1_.coverage" NAME="Unittests in SuperUserTest (1) Coverage Results" MODIFIED="1477389556049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
+    <SUITE FILE_PATH="coverage/IcecatDescriptionRestAutoTest$Unittest_SuperUserTest_test_Put.coverage" NAME="Unittest SuperUserTest.test_Put Coverage Results" MODIFIED="1477408082188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
     <SUITE FILE_PATH="coverage/Nikita$superUser_POST.coverage" NAME="superUser_POST Coverage Results" MODIFIED="1467988109707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/superUser_POST" />
     <SUITE FILE_PATH="coverage/Nikita$Unittest_Test_Super_User_test_Get.coverage" NAME="Unittest Test_Super_User.test_Get Coverage Results" MODIFIED="1475074633609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
     <SUITE FILE_PATH="coverage/Nikita$Unittests_in_editorMain.coverage" NAME="Unittests in editorMain Coverage Results" MODIFIED="1467986442162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/superUser_GET" />
     <SUITE FILE_PATH="coverage/Nikita$Unittest_Test_Super_User_test_initFirst.coverage" NAME="Unittest Test_Super_User.test_initFirst Coverage Results" MODIFIED="1472811219249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
     <SUITE FILE_PATH="coverage/Nikita$Unittest_Test_Super_User_test_Post.coverage" NAME="Unittest Test_Super_User.test_Post Coverage Results" MODIFIED="1474989331754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
+    <SUITE FILE_PATH="coverage/IcecatDescriptionRestAutoTest$Unittest_SuperUserTest_test_Post.coverage" NAME="Unittest SuperUserTest.test_Post Coverage Results" MODIFIED="1477403625669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/super_user" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -66,18 +90,8 @@
       <file leaf-file-name="accesskey.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accessKeyGenerator/accesskey.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/super_user/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -86,9 +100,11 @@
       <file leaf-file-name="postRequest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/post/postRequest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="315">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,8 +112,8 @@
       <file leaf-file-name="getAccessKey.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accessKeyGenerator/getAccessKey.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -106,31 +122,9 @@
       <file leaf-file-name="getRequest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/get/getRequest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+            <state relative-caret-position="240">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deleteRequest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delete/deleteRequest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testSuperUser.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/super_user/testSuperUser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="761">
-              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -138,10 +132,34 @@
       <file leaf-file-name="testConfig.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/super_user/testConfig.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="115">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="putRequest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/put/putRequest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="patchRequest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patch/patchRequest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,9 +168,21 @@
       <file leaf-file-name="superUserData.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/super_user/superUserData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="51" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="51" />
+            <state relative-caret-position="190">
+              <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testSuperUser.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/super_user/testSuperUser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2285">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,10 +192,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -184,25 +217,27 @@
         <option value="$PROJECT_DIR$/accessKeyGenerator/rew.py" />
         <option value="$PROJECT_DIR$/accessKeyGenerator/MainHelp.py" />
         <option value="$PROJECT_DIR$/accessKeyGenerator/accesskey.txt" />
-        <option value="$PROJECT_DIR$/accessKeyGenerator/getAccessKey.py" />
         <option value="$PROJECT_DIR$/super_user/data.py" />
         <option value="$PROJECT_DIR$/super_user/Main.py" />
         <option value="$PROJECT_DIR$/super_user/superUserFunction.py" />
-        <option value="$PROJECT_DIR$/put/putRequest.py" />
         <option value="$PROJECT_DIR$/test" />
         <option value="$PROJECT_DIR$/super_user/superUserHelper.py" />
         <option value="$PROJECT_DIR$/super_user/testHelper.py" />
         <option value="$PROJECT_DIR$/super_user/accesskey.txt" />
         <option value="$PROJECT_DIR$/super_user/testSuperUser_i.py" />
         <option value="$PROJECT_DIR$/productId/data.py" />
-        <option value="$PROJECT_DIR$/delete/deleteRequest.py" />
+        <option value="$PROJECT_DIR$/super_user/TestConfig.py" />
+        <option value="$PROJECT_DIR$/framework/super_user/testSuperUser.py" />
+        <option value="$PROJECT_DIR$/accessKeyGenerator/getAccessKey.py" />
         <option value="$PROJECT_DIR$/accessKeyGenerator/accesskey.py" />
+        <option value="$PROJECT_DIR$/delete/deleteRequest.py" />
         <option value="$PROJECT_DIR$/get/getRequest.py" />
         <option value="$PROJECT_DIR$/post/postRequest.py" />
+        <option value="$PROJECT_DIR$/patch/patchRequest.py" />
+        <option value="$PROJECT_DIR$/put/putRequest.py" />
+        <option value="$PROJECT_DIR$/super_user/testConfig.py" />
         <option value="$PROJECT_DIR$/super_user/superUserData.py" />
         <option value="$PROJECT_DIR$/super_user/testSuperUser.py" />
-        <option value="$PROJECT_DIR$/super_user/TestConfig.py" />
-        <option value="$PROJECT_DIR$/super_user/testConfig.py" />
         <option value="$PROJECT_DIR$/super_user/testSuperUser.py" />
       </list>
     </option>
@@ -271,7 +306,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -333,6 +367,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="patch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IcecatDescriptionRestAutoTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IcecatDescriptionRestAutoTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="get" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -367,6 +415,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -376,85 +425,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/framework" />
+      <recent name="C:\Users\Юрий\Desktop\Python\Nikita\accessKeyGenerator" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Юрий\Desktop\Python\Nikita\super_user" />
       <recent name="C:\Users\Юрий\Desktop\Python\Nikita\accessKeyGenerator" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Юрий\Desktop\Python\Nikita\accessKeyGenerator" />
-    </key>
   </component>
-  <component name="RunManager">
-    <configuration default="false" name="Unittests in Test_Super_User (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/super_user" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Nikita" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/super_user/testSuperUser.py" />
-      <option name="CLASS_NAME" value="Test_Super_User" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest Test_Super_User.test_Post" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/super_user" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Nikita" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/super_user/testSuperUser.py" />
-      <option name="CLASS_NAME" value="Test_Super_User" />
-      <option name="METHOD_NAME" value="test_Post" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest Test_Super_User.test_Delete" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/super_user" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Nikita" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/super_user/testSuperUser.py" />
-      <option name="CLASS_NAME" value="Test_Super_User" />
-      <option name="METHOD_NAME" value="test_Delete" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in Test_Super_User" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in SuperUserTest">
+    <configuration default="false" name="Unittest SuperUserTest.test_Patch" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -466,10 +448,33 @@
       <module name="IcecatDescriptionRestAutoTest" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/super_user/testSuperUser.py" />
-      <option name="CLASS_NAME" value="Test_Super_User" />
-      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="SuperUserTest" />
+      <option name="METHOD_NAME" value="test_Patch" />
       <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest SuperUserTest.test_Put" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/super_user" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IcecatDescriptionRestAutoTest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/super_user/testSuperUser.py" />
+      <option name="CLASS_NAME" value="SuperUserTest" />
+      <option name="METHOD_NAME" value="test_Put" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -493,6 +498,52 @@
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest SuperUserTest.test_Put_Like_Post" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/super_user" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IcecatDescriptionRestAutoTest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/super_user/testSuperUser.py" />
+      <option name="CLASS_NAME" value="SuperUserTest" />
+      <option name="METHOD_NAME" value="test_Put_Like_Post" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest SuperUserTest.test_Put_Like_Patch" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/super_user" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IcecatDescriptionRestAutoTest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/super_user/testSuperUser.py" />
+      <option name="CLASS_NAME" value="SuperUserTest" />
+      <option name="METHOD_NAME" value="test_Put_Like_Patch" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -681,19 +732,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Super_User (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Test_Super_User.test_Post" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Test_Super_User.test_Delete" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Super_User" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in SuperUserTest" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest SuperUserTest.test_Patch" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest SuperUserTest.test_Put" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in SuperUserTest" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest SuperUserTest.test_Put_Like_Post" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest SuperUserTest.test_Put_Like_Patch" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in SuperUserTest" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Super_User" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Test_Super_User.test_Delete" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Super_User (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Test_Super_User.test_Post" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest SuperUserTest.test_Put_Like_Patch" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest SuperUserTest.test_Put_Like_Post" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest SuperUserTest.test_Patch" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest SuperUserTest.test_Put" />
       </list>
     </recent_temporary>
   </component>
@@ -714,61 +765,61 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_SuperTests - 2016.10.13 at 16h 03m 06s.xml">
-      <configuration name="Unittests in SuperTests" configurationId="tests" />
+    <history-entry file="Unittest_SuperUserTest_test_Put_Like_Patch - 2016.10.26 at 11h 20m 57s.xml">
+      <configuration name="Unittest SuperUserTest.test_Put_Like_Patch" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_SuperUserTest - 2016.10.13 at 16h 07m 04s.xml">
+    <history-entry file="Unittest_SuperUserTest_test_Put_Like_Patch - 2016.10.26 at 11h 26m 06s.xml">
+      <configuration name="Unittest SuperUserTest.test_Put_Like_Patch" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_SuperUserTest_test_Put_Like_Patch - 2016.10.26 at 11h 28m 04s.xml">
+      <configuration name="Unittest SuperUserTest.test_Put_Like_Patch" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_SuperUserTest_test_Put_Like_Post - 2016.10.26 at 10h 53m 08s.xml">
+      <configuration name="Unittest SuperUserTest.test_Put_Like_Post" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_SuperUserTest_test_Put_Like_Post - 2016.10.26 at 10h 54m 42s.xml">
+      <configuration name="Unittest SuperUserTest.test_Put_Like_Post" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_SuperUserTest_test_Put_Like_Post - 2016.10.26 at 10h 56m 47s.xml">
+      <configuration name="Unittest SuperUserTest.test_Put_Like_Post" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_SuperUserTest_test_Put_Like_Post - 2016.10.26 at 11h 02m 21s.xml">
+      <configuration name="Unittest SuperUserTest.test_Put_Like_Post" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_SuperUserTest_test_Put_Like_Post - 2016.10.26 at 11h 02m 58s.xml">
+      <configuration name="Unittest SuperUserTest.test_Put_Like_Post" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_SuperUserTest_test_Put_Like_Post - 2016.10.26 at 11h 14m 43s.xml">
+      <configuration name="Unittest SuperUserTest.test_Put_Like_Post" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_SuperUserTest - 2016.10.26 at 11h 29m 46s.xml">
       <configuration name="Unittests in SuperUserTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Test_Super_User - 2016.10.13 at 15h 38m 17s.xml">
-      <configuration name="Unittests in Test_Super_User" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Test_Super_User - 2016.10.13 at 15h 41m 01s.xml">
-      <configuration name="Unittests in Test_Super_User" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Test_Super_User - 2016.10.13 at 15h 48m 14s.xml">
-      <configuration name="Unittests in Test_Super_User" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Test_Super_User - 2016.10.13 at 15h 51m 49s.xml">
-      <configuration name="Unittests in Test_Super_User" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Test_Super_User - 2016.10.13 at 15h 54m 15s.xml">
-      <configuration name="Unittests in Test_Super_User" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Test_Super_User - 2016.10.13 at 15h 57m 57s.xml">
-      <configuration name="Unittests in Test_Super_User" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Test_Super_User - 2016.10.13 at 15h 59m 59s.xml">
-      <configuration name="Unittests in Test_Super_User" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Test_Super_User - 2016.10.13 at 16h 00m 27s.xml">
-      <configuration name="Unittests in Test_Super_User" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2761194" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27878466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32575756" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36752138" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26068377" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2767094" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3982684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -804,16 +855,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="45" />
+      <option name="time" value="47" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/superUser_POST/postJSONresponse.py" />
-    <entry file="file://$PROJECT_DIR$/productId/productId.py" />
-    <entry file="file://$PROJECT_DIR$/superUser_POST/superUserPOST.py" />
-    <entry file="file://$PROJECT_DIR$/superUser_GET/getJSONresponse.py" />
-    <entry file="file://$PROJECT_DIR$/superUser_GET/superUser_Get_Main.py" />
     <entry file="file://$PROJECT_DIR$/superUser_POST/superUser_POST_Main.py" />
     <entry file="file://$PROJECT_DIR$/superUser_POST/postJSONresponse.py" />
     <entry file="file://$PROJECT_DIR$/superUser_GET/accesskey.py" />
@@ -832,13 +878,6 @@
     <entry file="file://$PROJECT_DIR$/superUser_GET/superUser_Get_Main.py" />
     <entry file="file://$PROJECT_DIR$/superUser_GET/superUserGET.py" />
     <entry file="file://$PROJECT_DIR$/accessKeyGenerator/Main.py" />
-    <entry file="file://$PROJECT_DIR$/accessKeyGenerator/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accessKeyGenerator/rew.py" />
     <entry file="file://$PROJECT_DIR$/accessKeyGenerator/MainHelp.py" />
     <entry file="file://$PROJECT_DIR$/accessKeyGenerator/accesskey.txt" />
@@ -851,75 +890,12 @@
     <entry file="file://$PROJECT_DIR$/test" />
     <entry file="file://$PROJECT_DIR$/super_user/superUserFunction.py" />
     <entry file="file://$PROJECT_DIR$/super_user/superUserHelper.py" />
-    <entry file="file://$PROJECT_DIR$/super_user/accesskey.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/super_user/testSuperUser_i.py" />
     <entry file="file://$PROJECT_DIR$/productId/data.py" />
-    <entry file="file://$PROJECT_DIR$/put/putRequest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delete/deleteRequest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accessKeyGenerator/accesskey.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get/getRequest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post/postRequest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accessKeyGenerator/getAccessKey.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/super_user/superUserData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/super_user/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,22 +914,136 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/super_user/accesskey.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accessKeyGenerator/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delete/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/put/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delete/deleteRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accessKeyGenerator/accesskey.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accessKeyGenerator/getAccessKey.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/postRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get/getRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/super_user/testConfig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="115">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/put/putRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patch/patchRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/super_user/superUserData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/super_user/testSuperUser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="761">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state relative-caret-position="-2285">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
