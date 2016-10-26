@@ -38,6 +38,8 @@ dictFullInfoPatch = {"productId": "22655827", "langId": "1", "shortDescrip": "te
                                   "disclaimer": "disclaimer patch",
                                   "middle_desc": "middle_desc patch"}}
 
+
+
 dictFullInfoPutPost = {"productId": "22655827", "langId": "1", "shortDescrip": "test_short_description_superUser_PUT",
                      "fullInfo": {"long_desc": "Marketing text: <b>Text may contain html tags</b>",
                                   "official_url": "http://www.tomtom.com/da_dk/drive/car/products/go-60-europe/",
@@ -47,6 +49,8 @@ dictFullInfoPutPost = {"productId": "22655827", "langId": "1", "shortDescrip": "
                                   "seo_keywords": "seo_keywords put",
                                   "disclaimer": "disclaimer put",
                                   "middle_desc": "middle_desc put"}}
+
+
 
 dictFullInfoPutPatch = {"productId": "22655827", "langId": "1", "shortDescrip": "test_short_description_superUser_PUT",
                    "fullInfo": {"long_desc": "Marketing text: <b>Text may contain html tags</b>",
